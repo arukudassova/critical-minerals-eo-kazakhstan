@@ -1,0 +1,60 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.conda/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Secrets and credentials ---
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.json
+*credentials*.json
+*service-account*.json
+*service_account*.json
+client_secret*.json
+token.json
+.config/earthengine/
+
+# --- Local / raw data (READMEs stay tracked) ---
+data/raw/
+data/interim/
+data/external/
+
+# Large raster, array, and archive formats
+*.tif
+*.tiff
+*.TIF
+*.jp2
+*.img
+*.nc
+*.hdf
+*.h5
+*.he5
+*.SAFE/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- QGIS ---
+*.qgs~
+*.qgz~
+*.aux.xml
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
